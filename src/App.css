@@ -1,0 +1,284 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  
+  }
+  
+  
+  
+  .Authpage{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+
+  .container{
+    background: white;
+     
+      background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+      border-radius: 2rem;
+      min-height: 40vh;
+      width:50%;
+      padding: 0%;
+      backdrop-filter: blur(2rem);
+      display: flex;
+      flex-direction: column;
+  }
+   
+
+  h3{
+    font-weight:800;
+    font-style: oblique;
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+  color:#000;
+  
+  
+  }
+  
+input{
+   margin: .2rem 2rem;
+   padding: .9rem;
+   border-radius: .5rem;
+   border-color: #65dfc9;
+   
+  }
+  
+.input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: blue;
+    opacity: 0.5; /* Firefox */
+  }
+  
+  input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: blue;
+    opacity: 0.5;
+  }
+  
+  input::-ms-input-placeholder { /* Microsoft Edge */
+    color: blue;
+    opacity: 0.5;
+  }
+  
+button{
+    font-weight: bolder;
+    margin: 1% 40%;
+    padding: 1% 0.1%;
+    border-radius: .5rem;
+    border-color: #65dfc9;
+    cursor: pointer;
+    background: aqua;
+    opacity: 0.9;
+    
+  }
+  
+  button:hover{
+    background: #65dfc9;
+    font-weight: bold;
+    opacity: 0.7;
+    
+  }
+  
+  
+  
+.signup-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  }
+  
+  .signup-div :hover{
+    color: blue;
+  }
+
+  .signpage{
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  select{
+    margin: .2rem 15rem;
+  }
+
+  .login{
+    margin-bottom: 1%;
+    font-size: smaller;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login:hover{
+    color: blue;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+  
+    background: #000;
+  }
+
+  .title{
+    margin: 0 0 0 1%;
+    font-size: xx-large;
+    color: aqua;
+  }
+
+  .logout{
+  
+    color:#fff;
+    display: flex;
+    margin: 1% 0 0 75%;
+background: red;
+height: 50px;
+    border-radius: 50%;
+  }
+
+.request{
+justify-content: center;
+font-size: 200%;
+}
+
+ .screen{
+ 
+  display: flex;
+  flex-direction: row;
+  margin: 1% 0 0 5%;
+}
+
+.screen h4{
+  font-size: 200%;
+}
+
+.screen h5{
+margin: 1% 0 20% 30% ;
+}
+
+
+.table{
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  margin: 1% 0 0 0;
+ padding: 0 0 10% 0;
+}
+
+
+.table h4{
+  font-size: 200%;
+  font-weight: bolder;
+  color: #000;
+  opacity: 0.8;
+  margin: 0 0 0 1%;
+}
+
+.display{
+ margin-top: 1%;
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+}
+
+.display h5{
+  display: flex;
+justify-content: center;
+  margin: 1%;
+}
+
+.keypad{
+ 
+  display: flex;
+  flex-direction: column; 
+  margin: 1% 0 0 35%;
+}
+
+.btnGroup{
+  margin: 10% 0 0 0;
+}
+
+.btnGroup button{
+  
+padding: 10%;
+margin: 0;
+}
+
+.row1, .row2,.row3, .row4{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.row4 button{
+  padding: 10% 22% 10% 22%;
+}
+
+.transfer{
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
+
+.transfer button{
+  margin: 4% 0 0;
+padding: 3%;
+}
+
+ .index .request{
+  margin: 1% 35% 1%;
+  padding: 1% 1% 1% 1%;
+  border-radius: 5rem;
+  display: flex;
+  flex-direction: row;
+
+  background: #000;
+  color: #fff;
+ 
+ }
+
+
+.index .request h6{
+  font-size: 70%;
+ white-space: nowrap;
+}
+
+
+.index .request button{
+  margin: 1% 10% 0 10%;
+  padding: 1% 7% 1%;
+  
+}
+
+.inputs{
+  margin: 2% 0 1% 2%;
+  font-size: 150%;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-text{
+  margin: 1% 10% 1% 10%;
+}
+
+.answers{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
